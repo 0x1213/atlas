@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin: 6px auto;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type='text'],
+input[type='file'],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+button {
+  background-color: #4c1d95;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6d28d9;
+}
+
+button:disabled {
+  background-color: #a1a1aa;
+  cursor: not-allowed;
+}
+
+#processing {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#processing p {
+  color: #a1a1aa;
+}
+
+#error {
+  color: red;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.dl-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+@keyframes ldio-uju4n5gsi4 {
+  0% {
+    top: 54.72px;
+    left: 54.72px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 6.84px;
+    left: 6.84px;
+    width: 95.75999999999999px;
+    height: 95.75999999999999px;
+    opacity: 0;
+  }
+}
+.ldio-uju4n5gsi4 div {
+  position: absolute;
+  border-width: 2.28px;
+  border-style: solid;
+  opacity: 1;
+  border-radius: 50%;
+  animation: ldio-uju4n5gsi4 1.4925373134328357s cubic-bezier(0, 0.2, 0.8, 1)
+    infinite;
+}
+.ldio-uju4n5gsi4 div:nth-child(1) {
+  border-color: #6d28d9;
+  animation-delay: 0s;
+}
+.ldio-uju4n5gsi4 div:nth-child(2) {
+  border-color: #4c1d95;
+  animation-delay: -0.7462686567164178s;
+}
+.loadingio-spinner-ripple-u4kq3kc258 {
+  width: 114px;
+  height: 114px;
+  display: inline-block;
+  overflow: hidden;
+  background: rgba(NaN, NaN, NaN, 0);
+}
+.ldio-uju4n5gsi4 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-uju4n5gsi4 div {
+  box-sizing: content-box;
+}

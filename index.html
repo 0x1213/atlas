@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio/Video Transcription</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container" id="error" style="display: none"></div>
+    <!-- Error message div -->
+
+    <div class="container" id="form">
+      <h2>Transcribe Audio/Video</h2>
+      <form id="transcriptionForm" enctype="multipart/form-data">
+        <label for="urlInput">Enter URL:</label>
+        <input
+          type="text"
+          id="urlInput"
+          name="urlInput"
+          placeholder="https://youtu.be/X2v2Td-VxVY"
+          value="https://youtu.be/X2v2Td-VxVY" />
+
+        <label for="languageSelect">Select Language:</label>
+        <select id="languageSelect" name="languageSelect">
+          <option value="en">English</option>
+          <option value="ar">Arabic</option>
+        </select>
+        <br /><br />
+        <button id="submit" type="submit">Transcribe</button>
+      </form>
+    </div>
+    <div class="container" id="processing" style="display: none">
+      <div class="loadingio-spinner-ripple-u4kq3kc258">
+        <div class="ldio-uju4n5gsi4">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <p>Please wait while we are processing</p>
+    </div>
+    <!-- Processing indication div -->
+    <div class="container" id="results" style="display: none">
+      <h2>Download Transcription</h2>
+      <div class="dl-links"></div>
+    </div>
+    <!-- Results div -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
